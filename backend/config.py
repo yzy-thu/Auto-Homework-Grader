@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyDOoZS3pXo0TIZM1KJstRe_dDqr5Oc3x1w")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 GEMINI_MODEL = "gemini-3-flash-preview"
 
 UPLOAD_DIR = os.path.join(tempfile.gettempdir(), "grading_app")
